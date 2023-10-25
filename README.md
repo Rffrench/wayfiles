@@ -26,6 +26,8 @@ In order to use `wayfiles`, you only need to specify a folder with results or a 
 
 Wayfiles was also designed to be pipable to other tools such as `httpx`. Only specify the `-s` flag and pipe the results found to check which URLs are still live.
 
+**NOTE:** `wayfiles` does not scan the Wayback Machine or other services. The tools I mentioned already do a great job for that. `wayfiles` only scans the results of these tools (`gau`, `waymore`, `waybackurls`, etc) or any other file or directory that you specify. You are free to use it however you want.
+
 
  <img src="static/wayfiles-example.png" alt="httpx" width="1000px">
   <br>
