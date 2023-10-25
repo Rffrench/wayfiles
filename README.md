@@ -18,7 +18,7 @@
 
 
 # About Wayfiles
-Wayfiles is a hacking tool designed to search for juicy files and URLs within a folder/file with results of tools like `gau`, `waymore`, `waybackurls`, etc.
+Wayfiles is a tool designed to search for juicy files and URLs within a folder/file with results of tools like `gau`, `waymore`, `waybackurls`, etc.
 
 👉🏻 Many URLs that are archived in the Wayback Machine, Common Crawl or AlienVault may still be live and accesible, which is specially valuable if you are a Bug Hunter. Also, if you encounter files that are not live anymore, you can still try accesing them using any of the previous services mentioned. Maybe you find some old credentials in some archived file or something valuable that can still be abused today.
 
