@@ -64,6 +64,7 @@ var extensions = []string{
 	"email",
 	"msg",
 	"gadget",
+	"tmp",
 	"temp",
 	"xz",
 }
