@@ -174,7 +174,7 @@ func searchFiles(flPath string, flSilent bool, flInc string, flExc string, flLis
 }
 
 func main() {
-	version := "1.0"
+	version := "1.0.1"
 	verifyOS()
 
 	var (
