@@ -178,6 +178,15 @@ I have dediced to include a table with each extension included and its descripti
 | `tmp`     | Temporary                  | Temporary files.  
 | `temp`     | Temporary                  | Temporary files.               |
 | `xz`       | XZ Compressed              | Compressed files may contain sensitive data.           |
+| `dll`       | Dynamic-link library              | Shared libraries for Windows. May contain sensitive stuff.           |
+| `bz2`       | BZIP2 Compressed files              | Compressed files may contain sensitive data.           |
+| `do`       | Java servlet files              | Usually old sites which may be worth checking for.           |
+| `zst`       | Compressed files using the Zstandard compression algorithm              | Compressed files may contain sensitive data.           |
+| `bz`       | BZIP Compressed files              | Compressed files may contain sensitive data.           |
+| `gz`       | Compressed files using the GNU Zip software (gzip)              | Compressed files may contain sensitive data.           |
+| `ovpn`       | VPN file              | VPN files will usually give you access into a network. Must check!           |
+| `vpn`       | VPN file              | VPN files will usually give you access into a network. Must check!           |
+
 
 
 
