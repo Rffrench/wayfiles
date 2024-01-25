@@ -73,8 +73,8 @@ var extensions = []string{
 	"zst",
 	"bz",
 	"gz",
-	"ovpn"
-	"vpn"
+	"ovpn",
+	"vpn",
 }
 
 func banner() {
