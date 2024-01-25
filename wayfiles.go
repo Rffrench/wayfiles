@@ -67,6 +67,14 @@ var extensions = []string{
 	"tmp",
 	"temp",
 	"xz",
+	"dll",
+	"bz2",
+	"do",
+	"zst",
+	"bz",
+	"gz",
+	"ovpn"
+	"vpn"
 }
 
 func banner() {
@@ -178,7 +186,7 @@ func main() {
 	verifyOS()
 
 	var (
-		flPath    = flag.String("f", "", "File/path for either a file with URLs or a directory with Wayback Machine results. (E.g.: wayfiles -f urls.txt | wayfiles -f ~/waymore/results | wayfiles -f .)")
+		flPath    = flag.String("f", "", "[REQUIRED] File/path for either a file with URLs or a directory with Wayback Machine results. (E.g.: wayfiles -f urls.txt | wayfiles -f ~/waymore/results | wayfiles -f .)")
 		flSilent  = flag.Bool("s", false, "Silent/Pipable mode. Not verbose mode. Just print the URLs to stdout")
 		flInc     = flag.String("i", "", "Include extra extensions to search for in the format of: ext1,ext2,ext3 E.g.: -i php,js,aspx")
 		flExc     = flag.String("e", "", "Exclude certain extensions to search for in the format of: ext1,ext2,ext3 E.g.: -e db,pdf,doc")
