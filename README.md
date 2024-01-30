@@ -186,6 +186,18 @@ I have dediced to include a table with each extension included and its descripti
 | `gz`       | Compressed files using the GNU Zip software (gzip)              | Compressed files may contain sensitive data.           |
 | `ovpn`       | VPN file              | VPN files will usually give you access into a network. Must check!           |
 | `vpn`       | VPN file              | VPN files will usually give you access into a network. Must check!           |
+| `zip`       | ZIP Compressed              | Compressed files may contain sensitive data.           |
+| `zipx`       | ZIPX Compressed              | Compressed files may contain sensitive data.           |
+| `rar`       | RAR Compressed              | Compressed files may contain sensitive data.           |
+| `tar`       | Tarball compressed files.              | Compressed files may contain sensitive data.           |
+| `lzma`       | LZMA  Compressed              | Compressed files may contain sensitive data.           |
+| `7z`       | 7Zip Compressed              | Compressed files may contain sensitive data.           |
+| `7zip`       | 7Zip Compressed              | Compressed files may contain sensitive data.           |
+| `deb`       | Debian package.              | Debian packages could be either public or private. Worth checking.           |
+| `pkg`       | Package software              | Package files can be used for many OSes. Most popular with MacOS installer packages.          |
+| `ipa`       | iOS application             | iOS apps that could be either private or public           |
+
+
 
 
 

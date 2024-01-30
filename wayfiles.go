@@ -75,6 +75,16 @@ var extensions = []string{
 	"gz",
 	"ovpn",
 	"vpn",
+	"rar",
+	"zip",
+	"zipx",
+	"tar",
+	"lzma",
+	"7z",
+	"7zip",
+	"deb",
+	"pkg",
+	"ipa",
 }
 
 func banner() {
@@ -182,7 +192,7 @@ func searchFiles(flPath string, flSilent bool, flInc string, flExc string, flLis
 }
 
 func main() {
-	version := "1.0.3"
+	version := "1.0.4"
 	verifyOS()
 
 	var (
