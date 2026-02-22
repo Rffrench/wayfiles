@@ -19,6 +19,7 @@ var extensions = []string{
 	"pem",
 	"env",
 	"sql",
+	"msql",
 	"cfg",
 	"config",
 	"apk",
@@ -53,10 +54,12 @@ var extensions = []string{
 	"pl",
 	"htm",
 	"txt",
+	"vcf",
 	"doc",
 	"docx",
 	"xls",
 	"xlsx",
+	"csv",
 	"ppt",
 	"pptx",
 	"pdf",
@@ -85,6 +88,11 @@ var extensions = []string{
 	"deb",
 	"pkg",
 	"ipa",
+	"backup",
+	"bk",
+	"save",
+	"baka",
+	"wpress",
 }
 
 func banner() {
@@ -192,7 +200,7 @@ func searchFiles(flPath string, flSilent bool, flInc string, flExc string, flLis
 }
 
 func main() {
-	version := "1.0.4"
+	version := "1.0.5"
 	verifyOS()
 
 	var (
